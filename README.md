@@ -1,2 +1,1 @@
-# admin-dashboard
-admin dashboard project using html, css to practice css layout specifically grid.
+Admin dashboard project using vanilla html, css to practice css layout mainly grid.
