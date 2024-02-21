@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-    /* border: 2px solid red; */
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -24,6 +23,11 @@ body {
 
 .header {
     background-color: white;
+    padding: 10px 25px 10px 25px;
+    /* box-shadow: 0 3px 5px 0 red; */
+    /* box-sizing: border-box; */
+    display: grid;
+    grid-template-columns: 5fr 2fr;
 }
 
 .icon {
@@ -43,7 +47,6 @@ body {
     background-color:rgb(36, 146, 205);
     color: white;
     gap: 20px;
-    height: 100%;
     grid-row: 1 / 3;
 }
 
@@ -69,5 +72,78 @@ a {
 }
 
 .main-content {
-    background-color: darkgray;
+    background-color: #E2E8F0;
+}
+
+.bell {
+    margin-right: 20px;
+}
+
+.avatar {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.avatar-small {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.searchField {
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
+    width: 75%;
+    /* height: 100%; */
+    border: none;
+}
+
+.header a {
+    background-color: rgb(36, 146, 205);
+    border-radius: 25px;
+    padding: 8px;
+    text-align: center;
+}
+
+.header-left, .header-right {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    /* gap: 20px; */
+}
+
+.header-left {
+    padding-top: 10px;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.welcome > img {
+    margin-right: 20px;
+}
+
+.hi > div {
+    font-size: 0.85rem;
+}
+.welcome-name {
+    font-size: 1.5rem;
+}
+
+.account {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    grid-auto-flow: column;
+}
+
+.buttons {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    align-items: center;
 }
